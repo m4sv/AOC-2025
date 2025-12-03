@@ -54,7 +54,7 @@
                                 lastPosition = j;
                             }
                         }
-                        lastPosition += 1;
+                        lastPosition++;
                         joltage += biggest;
                     }
                     totalJoltage += long.Parse(joltage);
